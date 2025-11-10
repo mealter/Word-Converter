@@ -1,0 +1,88 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  transition: all 0.5s ease-in-out;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  background: #2a7b9b;
+  background: linear-gradient(
+    to bottom right,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(93, 74, 178, 1) 36%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(237, 83, 193, 1) 93%
+  );
+  padding: 20px;
+}
+.box > h1 {
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+#btn {
+  width: 140px;
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2a7b9b;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 1px solid #fff;
+  margin-top: auto;
+}
+#btn:hover {
+  color: tomato;
+  border-color: tomato;
+  box-shadow: rgb(255, 255, 255) 0px 20px 30px -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.question-block{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  gap: 10px;
+  align-items: center;
+  margin: 10px 0;
+}
+.question, .ans{
+  width: 90%;
+  height: 50px;
+  padding: 20px;
+  font-weight: 700;
+}
+#main{
+  width: 100%;
+}
+input{
+  outline: none;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+}
+::placeholder{
+  font-size: 15px;
+}
+.question::placeholder{
+  color: tomato;
+}
+.ans{
+  font-weight: 400;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Shablon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Microsoft_Office_Word_%282019%E2%80%932025%29.svg/826px-Microsoft_Office_Word_%282019%E2%80%932025%29.svg.png" type="image/x-icon">
+</head>
+<body>
+    <template id="question-template">
+        <div id="question-block" class="question-block">
+            <input type="text" required id="question" class="question">
+            <input type="text" required  placeholder="Answer 1" class="ans">
+            <input type="text" required  placeholder="Answer 2" class="ans">
+            <input type="text" required  placeholder="Answer 3" class="ans">
+            <input type="text" required  placeholder="Answer 4" class="ans">
+        </div>
+    </template>
+    <div class="box">
+        <h1>Savollaringizni va Javoblaringizni yozing va yuklab olish tugmasini bosing</h1>
+        <div id="main">
+
+        </div>
+        <button id="btn">Yuklash</button>
+    </div>
+
+
+    <script src="https://unpkg.com/docx@7.8.2/build/index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="script.js"></script>
+<!-- docx + FileSaver CDN (UMD builds) -->
+</body>
+</html>
