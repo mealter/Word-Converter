@@ -1,7 +1,7 @@
 /* script.js — works with your exact HTML (no HTML changes required) */
 
 /* === CONFIG === */
-const Q_COUNT = 5;           // change this if you want more/fewer questions
+const Q_COUNT = 30;           // change this if you want more/fewer questions
 const TEMPLATE_ID = "question-template";
 const MAIN_ID = "main";
 const BUTTON_ID = "btn";
